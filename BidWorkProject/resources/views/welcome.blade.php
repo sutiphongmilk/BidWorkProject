@@ -129,5 +129,18 @@
                 </div>
             </div>
         </div>
+    <div id="car-accessories">
+
+    </div>
     </body>
 </html>
+<script src="{{ mix('js/app.js') }}"></script>
+<script>
+    let addCarAccessoryVue = new Vue({
+        el: '#car-accessories',
+        data: {},
+        methods: {
+        },
+        props: ['title'],
+    });
+</script>
